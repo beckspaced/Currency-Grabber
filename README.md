@@ -2,8 +2,8 @@
 Grab daily currency exchange rates
 
 A tiny script to grab daily currency exchange rates.
-currently it uses xe.com to grap the daily currency rates
-in the past it used oanda.com as source but they changed their format a while ago
+currently it uses http://www.xe.com/currencytables/ to grap the daily currency rates
+in the past it used https://www.oanda.com/ as source but they changed their format a while ago and i was too lazy to find out what has changed ;)
 
 the script is run daily via cronjob, e.g.
 
