@@ -12,7 +12,6 @@ require_once(dirname(__FILE__) . "/config/config.php");
 require_once(dirname(__FILE__) . "/inc/functions.php");
 require_once(dirname(__FILE__) . "/inc/simple_html_dom.php");
 require_once "Benchmark/Timer.php";
-require_once "HTTP/Request.php";
 require_once 'DB.php';
 
 /**
