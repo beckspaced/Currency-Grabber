@@ -13,6 +13,10 @@ the data is stored in the database. the storage tables can be created via script
 
 have a look in the source code on how to set the $currency to create the necessary tables to store the exchange rates
 
+the script requires some PEAR libraries:
+- Benchmark (https://pear.php.net/package/Benchmark)
+- DB (https://pear.php.net/package/DB)
+
 all is BETA status and if you have any questions then please ask
 
 thanks & greetings
