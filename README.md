@@ -16,9 +16,13 @@ have a look in the source code on how to set the $currency to create the necessa
 the script requires some PEAR libraries:
 - Benchmark (https://pear.php.net/package/Benchmark)
 - DB (https://pear.php.net/package/DB)
+ 
+the script also makes us of PHP Simple HTML DOM Parser to parse the table with the currency rates.
+
+https://sourceforge.net/projects/simplehtmldom/
 
 all is BETA status and if you have any questions then please ask
 
-thanks & greetings
+thanks to all the external library devs & greetings
 becki
 
