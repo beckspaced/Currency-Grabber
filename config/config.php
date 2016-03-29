@@ -4,7 +4,7 @@
 / Config File Oanda
 */
 
-$config['email'] = "admin@beckspaced.com";
+$config['email'] = "name@yourdomain.com";
 $config['randmin'] = 5;
 $config['randmax'] = 10;
 
@@ -12,22 +12,12 @@ $config['randmax'] = 10;
 / PEAR DB DSN Data Source Name
 */
 
-/**
 $dsn = array(
     'phptype'  => 'mysql',
-    'username' => 'root',
-    'password' => 'HvB5YqZx72yS',
+    'username' => 'user',
+    'password' => 'pass',
     'hostspec' => 'localhost',
-    'database' => 'oanda2',
-);
-**/
-
-$dsn = array(
-    'phptype'  => 'mysql',
-    'username' => 'oanda',
-    'password' => 'EyT4B2zX27',
-    'hostspec' => 'localhost',
-    'database' => 'oanda',
+    'database' => 'currency-rates',
 );
 
 /*
